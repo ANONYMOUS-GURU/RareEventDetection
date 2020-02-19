@@ -150,12 +150,12 @@ class test_model:
 
 	def plot(self):
 		plot_confusion_matrix(self.conf_mat,['normal','break'])
-		# plot_linear(,)
+		
 
 
 if __name__=='__main__':
 
-	mode='ae_rse' ##  best threshold_rse=0.175   threshold_ae_rse=0.165
+	mode='rse' 
 	output_data=os.path.join('..','output_data_{}'.format(mode))
 	model_path=os.path.join(output_data,'h5_file','model.h5')
 	utils_path=os.path.join(output_data,'train_keys.pkl')

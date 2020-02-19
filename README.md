@@ -28,7 +28,7 @@ The confusion matrix for the same is shown below.
 ## Training
 On cloning the repo the following directory structure can be seen.
 
-![](https://github.com/ANONYMOUS-GURU/RareEventDetection/blob/master/images/dir_str.png)
+![](https://github.com/ANONYMOUS-GURU/RareEventDetection/blob/master/images/dir_str1.png)
 
 To train on your model delete the output_data folders and run the train.py file. You can change the model architecture in the model_utils.py file.
 

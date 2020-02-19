@@ -66,4 +66,5 @@ The confusion matrix for the same are shown below:
 
 ##### Future Goals:
 Making an ensembele of both the models and generate even better results.
+Moreover the threshold value for each model can be further tuned for better results.
 

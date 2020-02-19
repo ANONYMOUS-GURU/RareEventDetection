@@ -129,7 +129,7 @@ class make_model:
 		print("Val rse_loss_y0 ",rse_loss_y0_val)
 		print("Val rse_loss_y1 ",rse_loss_y1_val)
 
-		threshold=rse_loss_y1_train
+		threshold=(rse_loss_y0_val+rse_loss_y1_val)/2
 		print("Choose the threshold as between train losses of y1 and y0 = {}".format(threshold))
 
 		with open(self.threshold_path,'wb+') as f:
